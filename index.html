@@ -5,25 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+    .about {
+        background: cornflowerblue;
+    }
+    .quiz {
+         background-color: grey;
+    }
+    .results {
+        background-color:cornflowerblue;
+    }
+    .aboutText {
+       padding: 30px; 
+       margin-top: 50px;
+
+        }
+</style>
 
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                About me
+            <div class="col-12 about d-flex justtify-content-center">
+                    <p class="aboutText">I am originally from Puerto Rico, but I was raised primarily in South Florida. Growing up I had the opportunity to live in both countries. I am grateful to have learned both English and Spanish from a very young age and experience two different cultures. 
+                    Towards the end of the summer of 2009, I enlisted In the U.S. Army where I served two enlistments totaling in 6 years. During that time, I was fortunate enough to travel to a number of places including Afghanistan. Through these experiences, I learned many life skills that I will value for years to come.
+                    After the military, I relocated to Atlanta to pursue my education. I started in business but quickly realized that the subject was not something I was passionate about. I later discovered that I really enjoyed being creative, and I liked the idea of learning something that would keep me on my toes. After digging into different fields, I made a match with web development. I’m currently a student web developer with focus in frontend work, but I am interested in dabbling with anything and everything!</p>   
             </div>
-            <div class="col-6">
-                    Quiz
-                </div>
-                <div class="col-3">
-                        About me
-                    </div>
         </div>
+        <div class="row">
+            <div class="col-6 quiz d-flex justtify-content-center">
+       <h2>Take this Superrr Easy Quiz</h2>
+       <ol>
+           <li>
+             My name is Ryan right ?
+               <button>Yes</button>
+               <button>No</button>
+           </li>
+           <li>
+                I'm from Puerto Rico ?
+                  <button>Yes</button>
+                  <button>No</button>
+              </li>
+              <li>
+                    I'm from Puerto Rico ?
+                      <button >Yes</button>
+                      <button>No</button>
+                  </li>
+                  <li>
+                        I'm from Puerto Rico ?
+                          <button>Yes</button>
+                          <button>No</button>
+                      </li>
+       </ol>
+      </div>
+    <script>
+   
 
-
-    </div>
-    
+          </script>
 </body>
 </html>
