@@ -1,7 +1,7 @@
 'use strict';
 
 var score = 0;
-var person = prompt('Hey there! What is your preferred name?')
+var person = prompt('Hey there! What is your preferred name?');
 
 getName();
 
@@ -18,7 +18,7 @@ firstQuestion();
 
 function firstQuestion() {
   var firstQ = prompt('My name is Brian?');
-    firstQ = firstQ.toLowerCase();
+  firstQ = firstQ.toLowerCase();
   if (firstQ === 'no'){
     alert('Wrong! Why do you hate me ' + person + '...');
   }
@@ -37,7 +37,7 @@ function firstQuestion() {
 
 alert('Score: ' + score);
 
-secondQuestion()
+secondQuestion();
 
 function secondQuestion() {
   var secondQ = prompt('Was I born in Puerto Rico?');
@@ -59,7 +59,7 @@ function secondQuestion() {
   alert('Score: ' + score);
 }
 
-thirdQuestion()
+thirdQuestion();
 
 function thirdQuestion(){
   var thirdQ = prompt('Did I serve in the Army for 4 years?');
@@ -82,7 +82,7 @@ function thirdQuestion(){
 
 alert('Score: ' + score);
 
-fourthQuestion()
+fourthQuestion();
 
 function fourthQuestion(){
   var fourthQ = prompt('I have 4 siblings?');
@@ -105,7 +105,7 @@ function fourthQuestion(){
 
 alert('Score: ' + score);
 
-fifthQuestion()
+fifthQuestion();
 
 function fifthQuestion(){
   var fifthQ = prompt('I have a strong dislike for bananas?');
